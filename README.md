@@ -54,3 +54,9 @@ Voice activity detection, hugging face , librosa, DER, male spectogram
 audio CNN model, Male spectogram, Signal Processing
 ```
 
+```text
+Node orchresation based CS agent
+
+hybrid search(BM25 + TS-IDF) , Web Search implemented, postgres sql, Re-ranking RAG
+```
+
