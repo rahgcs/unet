@@ -37,3 +37,20 @@ Backgroud substractor, Morophology, Temporal voating, template matching
 ```text
 PaddleOCR det and rec for OCR 
 ```
+
+```text
+Webrtc based voice-agent
+
+webrtc, tts, stt, llm, tcp/udp, orcherestreation, RAG , Prompt Engineering , optimization, GCP, Docker
+```
+
+```text
+Fine-tuning speaker dairization Pyannote
+
+Voice activity detection, hugging face , librosa, DER, male spectogram
+```
+
+```text
+audio CNN model, Male spectogram, Signal Processing
+```
+
