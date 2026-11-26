@@ -11,7 +11,7 @@ ByteTrack for MOT, temporal voating with 10 continoues frames.
 3D Geometrical re-construction with AR/VR data.
 
 Optimized jacobian odometry, SLAM , 3d point-clouds and Mesh, TSDF fusion.
-camera intrinsics and extrinsics and pose estimation, depth maps.
+camera intrinsics and extrinsics and pose estimation, depth maps. POSTgis
 ```
 
 ```text
@@ -99,7 +99,13 @@ webrtc, tts, stt, llm, tcp/udp, orcherestreation, RAG , Prompt Engineering , opt
 ```text
 Node orchresation based CS agent
 
-hybrid search(BM25 + TS-IDF) , Web Search implemented, postgres sql, Re-ranking RAG
+This is a RAG and database knowledge based conversational-ai bot build on LangChain with human in loop.
+It used fine-tuned DistilBERT for intent classification of query as well as identified the injections
+and unsecure queries. It used re-ranking RAG, retrives through hybrid approach cosine similarity+TS-IDF
+from the quadrant vector database where comapany policies are vectroized. It used postgres sql for rest
+of the data queries through multiple orcherestration tools and reslove the customer queries. Gemini API
+is used here as LLM reasoning agent. All microservices are deployed on FastAPI backend with Oauth tokens.
+Whole application is dockerized and deployed in GCP. Enabled the CI/CD pipeline for further scaling.
 ```
 
 
