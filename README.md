@@ -11,7 +11,8 @@ ByteTrack for MOT, temporal voating with 10 continoues frames.
 3D Geometrical re-construction with AR/VR data.
 
 Optimized jacobian odometry, SLAM , 3d point-clouds and Mesh, TSDF fusion.
-camera intrinsics and extrinsics and pose estimation, depth maps. POSTgis
+camera intrinsics and extrinsics and pose estimation, depth maps. POSTgis, RANSAC
+
 ```
 
 ```text
